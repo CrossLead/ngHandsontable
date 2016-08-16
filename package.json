@@ -1,5 +1,5 @@
 {
-  "name": "ngHandsontable",
+  "name": "nghandsontable",
   "description": "AngularJS directive for Handsontable",
   "homepage": "https://github.com/handsontable/ngHandsontable",
   "repository": {
@@ -9,6 +9,7 @@
   "bugs": {
     "url": "https://github.com/handsontable/ngHandsontable/issues"
   },
+  "main": "./src/index.js",
   "author": "Marcin Warpechowski <hello@handsontable.com>",
   "version": "0.12.0",
   "devDependencies": {
@@ -34,5 +35,8 @@
   "scripts": {
     "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "handsontable": "^0.24.3"
+  }
 }
